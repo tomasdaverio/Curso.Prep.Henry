@@ -48,7 +48,7 @@ function filter(array) {
  var newarray = [];
  for (i=0;i<array.length;i++){
   if(array[i][0]==='a'){newarray.push(array[i]);
-  } else {continue}
+  } 
  }; return newarray
 }
 
