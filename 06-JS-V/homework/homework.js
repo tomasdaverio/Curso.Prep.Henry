@@ -56,12 +56,12 @@ function agregarMetodoPrototype(Constructor) {
     this.apellido = apellido;
     this.edad = edad;
     this.domicilio = domicilio;
-    this.detalle = function (){ return {
+    this.detalle = function (){ let objdetail = {
       Nombre: this.nombre ,
       Apellido: this.apellido ,
       Edad: this.edad ,
       Domicilio: this.domicilio ,
-}
+} return objdetail
   }
 }
 
