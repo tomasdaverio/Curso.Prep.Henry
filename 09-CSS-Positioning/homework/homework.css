@@ -54,3 +54,12 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioCinco{
     flex-direction:row-reverse;
 }
+
+
+#ejercicioSiete{
+  display:flex;
+  flex-direction:column-reverse;
+  align-items:center;  
+
+}
+
