@@ -33,24 +33,32 @@ Ejercicio 2:
 <html>
     <head>
         <title>Tarea HTML de Tomás</title>
-        <link rel = "stylesheet" href= "./styles.css" />
+        <link rel = "stylesheet" href= "./styles.css" /> 
         <style>
-            h1{color:orange}
+            body{
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                }
+            h1{color:blue;
+            background:lightblue}
             img{width:400px}
             #thirdDiv{
                 height:600px;
                 width:500px;
-                background:seashell;
+                background:white;
                 padding:10px orangered;
-                border:1px black}
+                border:1px black;
+            }
             #spanID{font-size:18px; margin:50px}
-        </style>
+            </style>
     </head>
-        <body>
+        <body background="cook1.jpg">
             <div class="divClass">
                 <h1>Tomás</h1>
                 <h3>Henry</h3>
-                <h4>tarea de HTML / CSS</h4>
+                <h4>Tarea de HTML/CSS</h4>
             </div>
             <div class="divClass">
                 <span id="spanId">Comida favorita: Ravioles de espinaca con bolognesa</span>
